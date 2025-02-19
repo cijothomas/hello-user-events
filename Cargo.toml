@@ -1,0 +1,13 @@
+[package]
+name = "hello-user-events"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opentelemetry = "0.28.0"
+opentelemetry-appender-tracing = "0.28.1"
+opentelemetry-user-events-logs = "0.10.0"
+opentelemetry_sdk = "0.28.0"
+ctrlc = "3.4" 
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.0", default-features = false, features = ["env-filter", "fmt", "registry", "std"] }
