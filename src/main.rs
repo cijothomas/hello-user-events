@@ -53,7 +53,7 @@ fn main() {
             event_id = 20,
             user_name = "otel user",
             user_email = "otel@opentelemetry.io",
-            message = "This is an example message"
+            "This is an example message"
         );
         thread::sleep(Duration::from_secs(1));
     }
